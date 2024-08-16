@@ -106,3 +106,5 @@ dist
 /client/node_modules
 /client/.env
 /client/.vscode
+temp_auto_push.bat
+temp_interactive_push.bat
