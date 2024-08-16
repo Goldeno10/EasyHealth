@@ -2,7 +2,7 @@
 
 .contact-container {
   flex-direction: column;
-  border-radius: 50px;
+  border-radius: 16px;
   background-color: var(--white);
   gap: 2rem;
   width: 700px;
@@ -14,11 +14,15 @@
 .contact-btn {
   border-radius: 50px;
   background-color: var(--font-color-green);
+  width: 100%;
 }
 
 .form-input{
-  border-radius: 50px;
+  border-radius: 8px;
   background-color: var(--light-blue);
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-default-default);
 }
 
 .apply-doctor {

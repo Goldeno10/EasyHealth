@@ -8,7 +8,6 @@
   --light-green: #e8faf7;
   --dark-blue: #00abe4;
   --darker-blue: #0077ff;
-  --light-green: #E8FAF7;
   --white: #fff;
   --bold-text-color: #1e375a;
   --light-text-color: rgba(30, 55, 90, 0.7);
@@ -120,7 +119,7 @@ p {
 
 .btn {
   color: var(--white);
-  background-color: var(--dark-blue);
+  background-color: var(--schemes-primary);
   font-size: 1rem;
   padding: 0.6rem 0.8rem;
   border: none;
