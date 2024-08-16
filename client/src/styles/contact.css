@@ -2,8 +2,23 @@
 
 .contact-container {
   flex-direction: column;
+  border-radius: 50px;
+  background-color: var(--white);
   gap: 2rem;
-  width: 40%;
+  width: 700px;
+  /* width: 40%; */
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-btn {
+  border-radius: 50px;
+  background-color: var(--font-color-green);
+}
+
+.form-input{
+  border-radius: 50px;
+  background-color: var(--light-blue);
 }
 
 .apply-doctor {

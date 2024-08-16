@@ -4,10 +4,12 @@
   --light-blue: #e9f1fa;
   --dark-blue: #00abe4;
   --darker-blue: #0077ff;
+  --light-green: #E8FAF7;
   --white: #fff;
   --bold-text-color: #1e375a;
   --light-text-color: rgba(30, 55, 90, 0.7);
   --font-family: "Poppins", sans-serif;
+  --font-color-green: #006A64;
 }
 
 * {
@@ -22,7 +24,7 @@ html {
 
 body {
   font-family: var(--font-family);
-  background-color: var(--light-blue);
+  background-color: var(--light-green);
 }
 
 li {

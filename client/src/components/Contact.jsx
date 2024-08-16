@@ -4,7 +4,7 @@ import "../styles/contact.css";
 import { useForm, ValidationError } from "@formspree/react";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm(process.env.REACT_FORMIK_SECRET);
+  const [state, handleSubmit] = useForm("xzzprgwy");
  
 
   return (
@@ -26,7 +26,7 @@ const Contact = () => {
             type="email"
             name="email"
             className="form-input"
-            placeholder="Enter your email"
+            placeholder="Enter your registration number"
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <textarea
@@ -47,9 +47,9 @@ const Contact = () => {
           <button
             type="submit"
             disabled={state.submitting}
-            className="btn form-btn"
+            className="btn form-btn contact-btn"
           >
-            Submit
+            Send
           </button>
         </form>
       </div>

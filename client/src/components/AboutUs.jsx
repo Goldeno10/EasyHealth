@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/aboutimg.jpg";
+import image from "../images/aboutimg.png";
 
 const AboutUs = () => {
   return (
@@ -11,17 +11,14 @@ const AboutUs = () => {
             <img
               src={image}
               alt="hero"
+              style={{ height: 400, width: 500, resize: "cover" }}
             />
           </div>
           <div className="hero-content">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam tenetur doloremque molestias repellat minus asperiores
-              in aperiam dolor, quaerat praesentium. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Voluptatibus, repudiandae! Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Provident
-              quibusdam doloremque ex? Officia atque ab dolore? Tempore totam
-              non ea!
+              The hassle-free way to book doctor appointments online. Find your
+              preferred doctor, check their availability, and book appointments
+              with ease. Simplify your healthcare experience with easyHealth.
             </p>
           </div>
         </div>

@@ -3,11 +3,13 @@
 .hero {
   display: flex;
   height: 90vh;
+  /* height: 90vh; */
   width: 80%;
   margin: 0 auto;
   align-items: center;
   gap: 2rem;
   justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .hero-content {
@@ -22,7 +24,7 @@
 }
 
 .hero-img {
-  flex: 1;
+  flex: .8;
 }
 
 .hero-img img {
