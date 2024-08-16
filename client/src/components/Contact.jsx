@@ -4,7 +4,7 @@ import "../styles/contact.css";
 import { useForm, ValidationError } from "@formspree/react";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm(process.env.REACT_FORMIK_SECRET);
+  const [state, handleSubmit] = useForm(process.env.REACT_APP_FORMIK_SECRET);
  
 
   return (
