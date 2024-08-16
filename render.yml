@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: easyhealth-backend
+    env: node
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        fromDatabase: YOUR_ENV_VARIABLE_NAME
+      - key: MONGODB_URI
+        fromDatabase: YOUR_ENV_VARIABLE_NAME
+    autoscale:
+      minInstances: 1
+      maxInstances: 3
+    healthCheckPath: /
